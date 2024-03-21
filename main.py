@@ -145,27 +145,6 @@ kg_label1.grid(row=7,column=2)
 k_button = ttk.Button(converter_tab, text="Convert", command=pounds_convert)
 k_button.grid(row=8,column=0,columnspan=3)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+window.resizable(False, False)
 window.mainloop()
-# print(f"{bmi:.1f}")
-# print(text)
-# print(f"{converted_weight:.1f}")
+
